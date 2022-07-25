@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #24252A;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(104, 103, 103);
+            padding: 10px;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.357);
+            border-radius: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #edf0f1;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        nav a:hover {
+            color: aquamarine;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.357);
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article aside {
+            background-color: rgb(156, 153, 153);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section>
+            <article id="noticias">
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed porro illo, a corrupti voluptatem, veniam iste ad laudantium quam maxime praesentium atque aliquid voluptate consequuntur magnam, omnis optio sunt inventore?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>
